@@ -11,11 +11,12 @@ public class Pregunta {
     private int inutiVar;
     //algo
 
-    public Pregunta (boolean answer, int questionId, int pistaId){
+    public Pregunta (boolean answer, int questionId, int pistaId, int intil){
 
         this.answer=answer;
         this.questionId=questionId;
         this.pistaId=pistaId;
+        this.inutiVar=intil;
     }
 
     public boolean isAnswer() {
