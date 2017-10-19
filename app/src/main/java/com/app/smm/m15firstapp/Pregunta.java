@@ -8,6 +8,7 @@ public class Pregunta {
     private boolean answer;
     private int questionId;
     private int pistaId;
+    private int inutiVar;
     //algo
 
     public Pregunta (boolean answer, int questionId, int pistaId){
